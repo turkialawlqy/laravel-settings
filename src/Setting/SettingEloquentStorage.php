@@ -1,6 +1,6 @@
 <?php
 
-namespace Turki\Settings\Setting;
+namespace turki\Settings\Setting;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Cache;
@@ -116,7 +116,7 @@ class SettingEloquentStorage implements SettingStorage
      */
     protected function getSettingModel()
     {
-        return app('\Turki\Settings\Setting\Setting');
+        return app('\turki\Settings\Setting\Setting');
     }
 
     /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace Turki\Settings\Setting;
+namespace turki\Settings\Setting;
 
 use Illuminate\Database\Eloquent\Model;
 

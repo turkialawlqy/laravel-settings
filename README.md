@@ -1,10 +1,8 @@
 ## Laravel Settings
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/turkialawlqy/laravel-settings.svg)](https://packagist.org/packages/turkialawlqy/laravel-settings)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/turkialawlqylaravel-settings.svg)](https://packagist.org/packages/turkialawlqy/laravel-settings)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/turkialawlqy/laravel-settings/master.svg)](https://travis-ci.org/turkialawlqy/laravel-settings)
 [![StyleCI](https://styleci.io/repos/152258044/shield)](https://styleci.io/repos/152258044)
-[![Total Downloads](https://img.shields.io/packagist/dt/turkialawlqy/laravel-settings.svg)](https://packagist.org/packages/turkialawlqy/laravel-settings)
 
 Use `turkialawlqy/laravel-settings` to store key value pair settings in the database.
 
@@ -23,12 +21,12 @@ $ composer require turkialawlqy/laravel-settings
 ```php
 'providers' => [
     //...
-    Turki\Settings\SettingsServiceProvider::class
+    turkialawlqy\Settings\SettingsServiceProvider::class
 ]
 
 'aliases' => [
     //...
-    "Settings" => Turki\Settings\Facade::class
+    "Settings" => turkialawlqy\Settings\Facade::class
 ]
 ```
 
@@ -60,8 +58,8 @@ settings()->set($key, $value);
 
 // Set a multiple settings
 settings()->set([
-   'app_name' => 'turkialawlqye',
-   'app_email' => 'info@email.com',
+   'app_name' => 'turkialawlqy',
+   'app_email' => 'turkialawlqy@email.com',
    'app_type' => 'SaaS'
 ]);
 
@@ -116,11 +114,8 @@ If you discover any security related issues, please email saquibweb@gmail.com in
 
 ### Credits
 
-- [Mohd Saqueib Ansari](https://github.com/saqueib)
+- [turki alawlqy](https://github.com/turkialawlqy)
 
-### About turkialawlqye.in
-
-turkialawlqye.in (https://www.turkialawlqye.in) is blog by [Saqueib](https://github.com/saqueib) which covers All about Full Stack Web Development.
 
 ### License
 

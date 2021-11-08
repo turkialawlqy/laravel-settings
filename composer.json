@@ -1,7 +1,7 @@
 {
   "name": "turkialawlqy/laravel-settings",
   "description": "Store key value pair in database as settings",
-  "homepage": "https://github.com/turkialawlqy/laravel-settings",
+  "homepage": "https://github.com/turkialawlqylaravel-settings",
   "type": "library",
   "license": "MIT",
   "keywords": [
@@ -13,8 +13,8 @@
   ],
   "authors": [
     {
-      "name": "Turki Alawlqy",
-      "email": "turkialawlqy@gmail.com"
+      "name": "Mohd turkialawlqy Ansari",
+      "email": "saquibweb@gmail.com"
     }
   ],
   "require": {
@@ -31,7 +31,7 @@
       "src/migrations"
     ],
     "psr-4": {
-      "Turki\\Settings\\": "src/"
+      "turki\\Settings\\": "src/"
     },
     "files": [
       "src/helpers.php"
@@ -39,16 +39,16 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Turki\\Settings\\Tests\\": "tests/"
+      "turki\\Settings\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Turki\\Settings\\SettingsServiceProvider"
+        "turki\\Settings\\SettingsServiceProvider"
       ],
       "aliases": {
-        "Settings": "Turki\\Settings\\Facade"
+        "Settings": "turki\\Settings\\Facade"
       }
     }
   },
