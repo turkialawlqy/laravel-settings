@@ -13,8 +13,8 @@
   ],
   "authors": [
     {
-      "name": "Mohd turkialawlqy Ansari",
-      "email": "saquibweb@gmail.com"
+      "name": "turkialawlqy",
+      "email": "turkialawlqy@gmail.com"
     }
   ],
   "require": {
@@ -31,7 +31,7 @@
       "src/migrations"
     ],
     "psr-4": {
-      "turki\\Settings\\": "src/"
+      "turkialawlqy\\Settings\\": "src/"
     },
     "files": [
       "src/helpers.php"
@@ -39,16 +39,16 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "turki\\Settings\\Tests\\": "tests/"
+      "turkialawlqy\\Settings\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "turki\\Settings\\SettingsServiceProvider"
+        "turkialawlqy\\Settings\\SettingsServiceProvider"
       ],
       "aliases": {
-        "Settings": "turki\\Settings\\Facade"
+        "Settings": "turkialawlqy\\Settings\\Facade"
       }
     }
   },

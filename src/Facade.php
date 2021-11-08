@@ -1,6 +1,6 @@
 <?php
 
-namespace turki\Settings;
+namespace turkialawlqy\Settings;
 
 class Facade extends \Illuminate\Support\Facades\Facade
 {
@@ -9,6 +9,6 @@ class Facade extends \Illuminate\Support\Facades\Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'turki\Settings\Setting\SettingStorage';
+        return 'turkialawlqy\Settings\Setting\SettingStorage';
     }
 }

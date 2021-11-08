@@ -11,7 +11,7 @@ if (! function_exists('settings')) {
      */
     function settings($key = null, $default = null)
     {
-        $setting = app()->make('turki\Settings\Setting\SettingStorage');
+        $setting = app()->make('turkialawlqy\Settings\Setting\SettingStorage');
 
         if (is_null($key)) {
             return $setting;

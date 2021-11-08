@@ -1,6 +1,6 @@
 <?php
 
-namespace turki\Settings;
+namespace turkialawlqy\Settings;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -31,8 +31,8 @@ class SettingsServiceProvider extends ServiceProvider
     {
         // bind setting storage
         $this->app->bind(
-            'turki\Settings\Setting\SettingStorage',
-            'turki\Settings\Setting\SettingEloquentStorage'
+            'turkialawlqy\Settings\Setting\SettingStorage',
+            'turkialawlqy\Settings\Setting\SettingEloquentStorage'
         );
     }
 }
